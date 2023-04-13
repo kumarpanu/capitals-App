@@ -1,0 +1,83 @@
+.main-container {
+  height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-container {
+  background-color: #f8fafc;
+  width: 50%;
+  max-width: 450px;
+  border-radius: 8px;
+  border-width: 0px;
+  padding-left: 35px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and(min-width:768px) {
+  .white-container {
+    width: 55%;
+  }
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #323f4b;
+}
+
+@media screen and(min-width:768px) {
+  .heading {
+    font-size: 27px;
+  }
+}
+
+.select-container {
+  display: flex;
+}
+
+.select-styling {
+  width: 140px;
+  border: 1px solid #cbd2d9;
+  height: 40px;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.option-element {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #000000;
+}
+
+.state {
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: #000000;
+}
+
+@media screen and(min-width:768px) {
+  .state {
+    font-size: 20px;
+  }
+}
+
+.country {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #1e293b;
+  font-weight: 500;
+}
+
+@media screen and(min-width:768px) {
+  .country {
+    font-size: 27px;
+  }
+}
